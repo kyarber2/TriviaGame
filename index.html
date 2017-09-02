@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Trivia Game</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>	
+<div class="container-fluid">
+	<div class="row">	
+		<div class="col-sm-6">
+			<h1>Movie Trivia Game</h1>
+			<p class="instructions"> You will be given 30 seconds to answer 5 trivia questions.
+			<br>
+			<p>Correct Answers<span id="correct-total"></span></p>
+			<p>Incorrect Answers <span id="incorrect-total"></span></p>
+		</div>
+	</div>
+	<form id="myForm">
+	<h3 id="q0"></h3>
+		<div class ="row form-group">
+			<input id="inputA0" type="radio" name="choice00">
+			A. <span id="choiceA0"></span> &nbsp;
+			<input id="inputB0" type="radio" name="choice00">
+			B. <span id ="choiceB0"></span> &nbsp;
+			<input id = "inputC0" type="radio" name="choice00">
+			C. <span id="choiceC0"></span> &nbsp;
+			<input id ="inputD0" type="radio" name="choice00">
+			D. <span id ="choiceD0"></span>
+		</div>
+	<h3 id="q1"></h3>
+		<div class ="row form-group">
+			<input id="inputA1" type="radio" name="choice01">
+			A. <span id="choiceA1"></span> &nbsp;
+			<input id="inputB1" type="radio" name="choice01">
+			B. <span id ="choiceB1"></span> &nbsp;
+			<input id="inputC1" type="radio" name="choice01">
+			C. <span id="choiceC1"></span> &nbsp;
+			<input id="inputD1" type="radio" name="choice01">
+			D. <span id ="choiceD1"></span>
+		</div>
+		<h3 id="q2"></h3>
+		<div class ="row form-group">
+			<input id="inputA2" type="radio" name="choice02">
+			A. <span id="choiceA2"></span> &nbsp;
+			<input id="inputB2" type="radio" name="choice02">
+			B. <span id ="choiceB2"></span> &nbsp;
+			<input id="inputC2" type="radio" name="choice02">
+			C. <span id="choiceC2"></span> &nbsp;
+			<input id="inputD2" type="radio" name="choice02">
+			D. <span id ="choiceD2"></span>
+		</div>
+		<h3 id="q3"></h3>
+		<div class ="row form-group">
+			<input id="inputA3" type="radio" name="choice41">
+			A. <span id="choiceA3"></span> &nbsp;
+			<input id="inputB3" type="radio" name="choice42">
+			B. <span id="choiceB3" id ="choiceB3"></span> &nbsp;
+			<input id="inputC3" type="radio" name="choice43">
+			C. <span id="choiceC3"></span> &nbsp;
+			<input id="inputD3" type="radio" name="choice44">
+			D. <span id ="choiceD3"></span>
+		</div>
+		<h3 id="q4"></h3>
+		<div class ="row form-group">
+			<input id="inputA4" type="radio" name="choice1">
+			A. <span id="choiceA4"></span> &nbsp;
+			<input id="inputB4" type="radio" name="choice2">
+			B. <span id ="choiceB4"></span> &nbsp;
+			<input id="inputC4" type="radio" name="choice3">
+			C. <span id="choiceC4"></span> &nbsp;
+			<input id="inputD4" type="radio" name="choice4">
+			D. <span id ="choiceD4"></span>
+		</div>
+		
+	
+	<button class="btn btn-default" type="submit">Submit</button>
+	</form>
+			<h3 id ="time-remaining">Time Remaining: </h3>
+			<p id="totalScore">Your total score is: </p>
+
+			
+ <script type="text/javascript" src="assets/javascript/app.js"></script>
+ 
+</div>
+</body>
+</html>
+
